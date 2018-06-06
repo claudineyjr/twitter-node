@@ -1,0 +1,33 @@
+{
+  "name": "twitter-node",
+  "version": "1.0.0",
+  "description": "An simple application that get tweets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudineyjr/twitter-node.git"
+  },
+  "keywords": [
+    "twitter",
+    "nodejs",
+    "tweets"
+  ],
+  "author": "Claudiney Junior <claudiney.jr@caquicoders.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudineyjr/twitter-node/issues"
+  },
+  "homepage": "https://github.com/claudineyjr/twitter-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "twit": "^2.2.10",
+    "twitter": "^1.7.1"
+  }
+}
