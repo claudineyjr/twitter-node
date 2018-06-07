@@ -1,0 +1,4 @@
+applications:
+- name: twitter-node
+  random-route: true
+  memory: 128M
