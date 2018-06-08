@@ -12,7 +12,10 @@ $ npm start
 
 # RUN ON A DOCKER CONTAINER
 To build a docker image:
-> docker build -t <name-of-your-image> .
+```sh
+$ docker build -t <name-of-your-image> .
+```
+
 DONT FORGET THE DOT AT THE END OF THE COMMNAD!!!!!
 
 # TO RUN ON IBM CLOUD
