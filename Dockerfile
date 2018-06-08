@@ -1,6 +1,8 @@
-FROM node:7.10.0-alpine
+FROM alpine
 
-ENV PORT=5000
+ENV PORT=3010
+
+RUN apk add --update nodejs
 
 WORKDIR /usr/src/cuca
 
@@ -10,6 +12,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 3010
 
 CMD [ "npm", "start" ]
