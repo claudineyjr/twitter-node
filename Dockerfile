@@ -1,5 +1,7 @@
 FROM alpine
 
+LABEL maintainer "Claudiney Junior <Claudiney.jr@caquicoders.com.br>"
+
 ENV PORT=3010
 
 RUN apk add --update nodejs
